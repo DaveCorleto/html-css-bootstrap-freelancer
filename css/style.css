@@ -1,0 +1,26 @@
+DEBUG
+
+.container-fluid {
+    background-color: brown;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(17, 17, 92);
+    height: 80px;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(71, 117, 71);
+}
+
+.col {
+    background-color: rebeccapurple;
+}
+
+[class^="col"] img {
+    max-width: 100%;
+}
