@@ -23,6 +23,56 @@ header {
     background-color: rebeccapurple;
 }
 
+/* Stili della NAV  */
+
+#ham-menu {
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+}
+
+@media all and (min-width: 768px) {
+    
+    #ham-menu {
+        display: none;
+    }
+}
+
+.navbar.fixed-center {
+    flex-basis: 100%;
+}
+
+#nav-ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+#nav-ul li {
+    display: flex;
+    align-items: center;
+}
+
+#nav-ul {
+    display: flex;
+    display: none;
+    height: 100px;
+    align-items: center;
+}
+
+@media all and (min-width: 768px) {
+    
+    #nav-ul {
+        display: flex;
+        list-style: none;
+    }
+}
+
+
 /* Stili della sezione Portfolio  */
 
 .card, .card img {
