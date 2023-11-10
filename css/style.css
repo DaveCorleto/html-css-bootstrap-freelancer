@@ -72,6 +72,24 @@ header {
     }
 }
 
+/* Sezione Jumbotron  */
+
+#jumbotron {
+    color: white;
+}
+
+.card-av {
+    margin: auto;
+}
+
+#avatar {
+    width: 35%;
+}
+#avatar img{
+    max-width: 100%;  
+}
+
+
 
 /* Stili della sezione Portfolio  */
 
@@ -92,6 +110,22 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     background-color: white;
+}
+
+/* Stili Contact-me  */
+
+#contact-me {
+    color: black;
+}
+
+#line-star .line {
+    color: black;
+    background-color: black;
+}
+
+.contact {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
 }
 
 /* Stili del Footer  */
